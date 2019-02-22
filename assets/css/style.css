@@ -16,6 +16,7 @@ body {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfe7fa', endColorstr='#6393c1', GradientType=0);
   /* IE6-9 */
+  background-repeat: no-repeat;
 }
 
 #container {
@@ -30,8 +31,10 @@ body {
 }
 
 #mainTitle {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 3rem;
+  font-weight:400;
+  margin:5px auto;
 }
 @media only screen and (max-width: 1000px) {
   .text-center, .container-fluid {
@@ -59,14 +62,14 @@ body {
 #videobox {
   width: 500px;
   height: 100%;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 #imagebox {
     width: 500px;
     /*Height is placeholder only */
     height: 375px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 #playbutton {
